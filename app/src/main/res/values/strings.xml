@@ -6,4 +6,17 @@
     <string name="enter_username">Enter Username</string>
     <string name="enter_password">Enter Password</string>
     <string name="username_password_display">Display Username/password</string>
+    <string name="final_text">Welcome to final activity</string>
+    <string name="final_activity_button">Final Activity Button</string>
+    <string name="headline_fragment">Headline Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="article_fragment">Article Fragment</string>
+    <string name="dynamic_button">Dynamic Button</string>
+    <string name="dynamic_fragment_text">Dynamic Fragment Text</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="first_fragment_button">Open First Fragment</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
 </resources>

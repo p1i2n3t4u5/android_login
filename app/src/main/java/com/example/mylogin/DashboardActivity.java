@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class DashboardActivity extends AppCompatActivity {
@@ -19,5 +20,13 @@ public class DashboardActivity extends AppCompatActivity {
 
         TextView textView=findViewById(R.id.display_username_password_id);
         textView.setText(username+password);
+    }
+
+    public void onFinalActivity(View view){
+        startActivity(new Intent(this,FinalActivity.class));
+    }
+
+    public void onDynamicFragment(View view) {
+        startActivity(new Intent(this,DyanamicFragmentActivity.class));
     }
 }
