@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 /**
@@ -18,6 +19,8 @@ public class FirstFragment extends Fragment {
 
 
     private Button button;
+
+    private TextView textView;
 
     public FirstFragment() {
         // Required empty public constructor
@@ -34,11 +37,17 @@ public class FirstFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 DyanamicFragmentActivity.fragmentManager.beginTransaction()
-                        .replace(R.id.fragment_container, new SecondFragment(), null).addToBackStack(null).commit();
+                        .replace(R.id.db_fragment_container, new SecondFragment(), null).addToBackStack(null).commit();
 
             }
         });
 
+
+        textView=view.findViewById(R.id.display_message_id);
+        Bundle bundle=getArguments();
+        if (bundle!=null) {
+            textView.setText(bundle.getString("MESSAGE")!=null?bundle.getString("MESSAGE"):"hello");
+        }
         return view;
 
 

@@ -19,4 +19,26 @@
     <string name="first_fragment_button">Open First Fragment</string>
     <string name="first_fragment">First Fragment</string>
     <string name="second_fragment">Second Fragment</string>
+    <string name="message_appears_here">Message Appears Here</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send_message">Send</string>
+    <string name="message_will_display">Message will Display Here</string>
+    <string name="logout_btn">Logout</string>
+
+
+    <string name="user_name">pintu</string>
+    <string name="user_password">pintu@123</string>
+    <string name="login_preference">com.example.mylogin.sharedpreferencesexample_login_preference</string>
+    <string name="login_status_preference">com.example.mylogin.sharedpreferencesexample_login_status_preference</string>
+    <string name="db_activity">DB Activity</string>
+    <string name="add_contact">ADD CONTACT</string>
+    <string name="view_contact">VIEW CONTACT</string>
+    <string name="update_contact">UPDATE CONTACT</string>
+    <string name="delete_contact">DELETE CONTACT</string>
+    <string name="add_new_contact">Add New Contact</string>
+    <string name="enter_contact_id">Enter Contact Id</string>
+    <string name="enter_name_id">Enter Name</string>
+    <string name="enter_email_id">Enter Email</string>
+    <string name="save">Save</string>
+
 </resources>
